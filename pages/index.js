@@ -1,13 +1,14 @@
-import Navbar from '../components/Navbar';
-
+import PageContainer from '../components/layout/Container';
+import HeadLine from '../components/home/HeadLine';
 export default function Home() {
   return (
-    <div className="md:max-h-screeen  md:flex md:overflow-x-hidden ">
-      <Navbar />
-
-      <div className="p-10 w-full text-green-800   overflow-y-auto ">
-        <h1> Home page</h1>
-      </div>
-    </div>
+    <PageContainer
+      currentPage="Home"
+      meta={{
+        desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
+      }}
+    >
+      <HeadLine />
+    </PageContainer>
   );
 }
