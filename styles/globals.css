@@ -8,7 +8,7 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   @apply bg-bg-content;
 }
 
@@ -28,7 +28,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-
+.side-nav{
+  @apply overflow-y-hidden
+}
 .landingSectionTitle::before {
   content: "";
   position: absolute;
