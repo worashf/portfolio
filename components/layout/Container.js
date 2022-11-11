@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Navbar from '../navbar/Navbar';
+import Footer from './Footer';
 const PageContainer = ({ currentPage, pageDesc, meta: { desc }, children }) => {
   const pageTitle = `${
     currentPage === 'Home'
@@ -32,7 +33,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
       ></noscript>
 
       <Navbar />
-      <div className="p-10 w-full  overflow-y-auto ">{children}</div>
+      <div className="p-10 w-full ">
+        {children}
+        <Footer />
+      </div>
     </div>
   );
 };
