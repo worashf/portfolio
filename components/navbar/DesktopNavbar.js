@@ -7,25 +7,28 @@ import {
 } from 'phosphor-react';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const DesktopNavbar = ({ sideBarRef }) => {
   return (
     <div
       ref={sideBarRef}
-      className=" overflow-y-hidden bg-bg-side w-full space-y-10 px-5 py-7  absolute inset-y-0 left-0 transform -translate-x-full
-    md:relative md:translate-x-0 z-50 transition duration-200 ease-in-out flex flex-col child:transition-all md:max-h-screen md:min-h-screen md:sticky md:top-0"
+      className=" bg-bg-side w-full space-y-10 px-5 py-7 absolute inset-y-0 left-0 transform -translate-x-full
+    md:relative md:w-80 md:translate-x-0 z-50 transition duration-200 ease-in-out flex flex-col child:transition-all md:max-h-screen md:min-h-screen md:sticky md:top-0"
     >
       <Link href="/">
-        <div className="flex flex-col items-center pb-3 w-48">
-          <img
+        <div className="flex flex-col md:mx-2.5  pb-3 w-30 ">
+          <Image
+            width="100"
+            height="100"
             className="mb-3 w-24 h-24 rounded-full shadow-lg"
             src="/static/profile/worash.jpeg"
             alt="Worash image"
           />
-          <h5 className="mb-1 text-xl font-medium text-blue-600">
+          <h5 className="mb-1 text-md font-medium text-blue-600">
             Worash Abocherugn
           </h5>
-          <span className="text-sm text-white dark:text-white-400">
+          <span className="text-sm font-medium text-white ">
             FULL-STACK WEB DEVELOPER
           </span>
         </div>
@@ -43,7 +46,7 @@ const DesktopNavbar = ({ sideBarRef }) => {
             <p>Portfolio</p>
           </div>
         </Link>
-        <Link href="/donate" passHref>
+        <Link href="/skills" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <GraduationCap size={20} />
             <p>Skills</p>
