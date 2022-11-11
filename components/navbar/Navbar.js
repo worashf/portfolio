@@ -9,7 +9,7 @@ const Navbar = () => {
     // sideBarRef.current.classList.toggle('overflow-y-hidden');
   }
   return (
-    <div className="max-h-screen md:sticky md:top-0 z-50 text-white ">
+    <div className="max-h-screen md:sticky md:top-0  z-50 text-white overflow-y-hidden overflow-x-hidden">
       {/* MOBILE SIDEBAR */}
       <MoblieNavbar toogleSideBar={toogleSideBar} />
       {/* MAIN SIDEBAR */}
