@@ -1,7 +1,7 @@
 import React from 'react';
+import { Broadcast, Brain, UsersFour, Asterisk, Alarm } from 'phosphor-react';
 import Image from 'next/image';
 import skills from '../../data/skills';
-import SectionTitle from '../layout/SectionTitle';
 
 const ToolSet = () => {
   return (
@@ -53,7 +53,41 @@ const ToolSet = () => {
           })}
         </div>
       </div>
-      <SectionTitle title="Soft Skills" />
+
+      <div className="flex flex-col md:flex-row space-x-10 space-y-0 relative">
+        <div className="relative text-3xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
+          <br />
+          Here is my soft skills for success.
+        </div>
+
+        <ul>
+          <li className="flex flex-row items-center  space-x-5">
+            {' '}
+            <UsersFour size={20} className="text-fun-pink mx-3 " />
+            Team Working
+          </li>
+          <li className="flex flex-row items-center  space-x-5">
+            {' '}
+            <Broadcast size={20} className="text-fun-pink mx-3 " />
+            Communication
+          </li>
+          <li className="flex flex-row items-center  space-x-5">
+            {' '}
+            <Alarm size={20} className="text-fun-pink mx-3 " />
+            Time management
+          </li>
+          <li className="flex flex-row items-center  space-x-5">
+            {' '}
+            <Brain size={20} className="text-fun-pink mx-3 " />
+            Critical Thinking
+          </li>
+          <li className="flex flex-row items-center  space-x-5">
+            {' '}
+            <Asterisk size={20} className="text-fun-pink mx-3 " />
+            Problem Solving
+          </li>
+        </ul>
+      </div>
     </>
   );
 };
