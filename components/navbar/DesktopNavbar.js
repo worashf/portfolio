@@ -4,6 +4,7 @@ import {
   GraduationCap,
   AddressBook,
   File,
+  House,
 } from 'phosphor-react';
 
 import Link from 'next/link';
@@ -34,13 +35,19 @@ const DesktopNavbar = ({ sideBarRef }) => {
         </div>
       </Link>
       <nav className="flex flex-col grow space-y-2">
+        <Link href="/" passHref>
+          <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
+            <House size={20} />
+            <p>Home</p>
+          </div>
+        </Link>
         <Link href="/home" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <Megaphone size={20} />
             <p>About Me</p>
           </div>
         </Link>
-        <Link href="/stats">
+        <Link href="/portfolio">
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <Briefcase size={20} />
             <p>Portfolio</p>
