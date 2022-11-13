@@ -9,7 +9,7 @@ const CTA = () => {
           Interested in Working Together?
         </h2>
         <a
-          href="mailto:uppert83@gmail.com"
+          href="/contact"
           className="cursor-pointer font-bold whitespace-nowrap 
         mt-6 px-8 py-3 mx-auto text-white border-2 rounded-full border-white bg-bg hover:bg-fun-pink hover:border-fun-pink transition-colors"
         >
