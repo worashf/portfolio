@@ -21,38 +21,30 @@ const About = () => {
 
         <div class=" w-full  rounded-lg shadow-md ">
           <a href="#">
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-white">
-              Hello! My name is Brittany and I enjoy creating things that live
-              on the internet.
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400">
+              Hello! My name is Worash and I enjoy creating things that live on
+              the web.
             </h5>
           </a>
           <p class="mb-2 text-md text-white da">
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            I am a full-stack web developer. I am currently looking for a web
+            development job, I have attended full stack dev curriculum at
+            Microverse for the last seven months, the program that uses pair
+            programming and real-world projects to teach web development. In
+            this school, I code every day with other developers around the world
+            and have learned both soft and technical skills.
           </p>
-          <ul class="space-y-1 max-w-md list-disc list-inside text-gray-400 ">
-            <li>good planning of UI and thinking how it affects the UX;</li>
-            <li>consistency in design and typography;</li>
-            <li> Search Engine Optimization;</li>
+          <h3 className="font-bold text-xl text-fun-gray-800">
+            I have experience and skillset like:
+          </h3>
+          <ul class="space-y-1 text-lg  list-disc list-inside text-gray-300 ">
+            <li>Remote collaboration and working within a diverse team;</li>
+            <li> Time management and working with a deadline;</li>
+            <li> Motivate others and communicate to solve issues;</li>
+            <li>Good working habits and always looks for growth; </li>
+            <li>Always open for discussion and feedback;</li>
+            <li>Working to solve problems </li>
           </ul>
-          <a
-            href="/portfolio"
-            class="inline-flex items-center text-blue-600 hover:underline"
-          >
-            See Projects
-            <svg
-              class="ml-2 w-5 h-5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
-              <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
-            </svg>
-          </a>
         </div>
       </div>
     </>

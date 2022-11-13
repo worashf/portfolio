@@ -44,7 +44,7 @@ const DesktopNavbar = ({ sideBarRef }) => {
         <Link href="/about" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <Megaphone size={20} />
-            <p>About Me</p>
+            <p>About</p>
           </div>
         </Link>
         <Link href="/portfolio">
@@ -59,16 +59,16 @@ const DesktopNavbar = ({ sideBarRef }) => {
             <p>Skills</p>
           </div>
         </Link>
-        <Link href="/donate" passHref>
+        <Link href="/cv" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <File size={20} />
             <p>CV</p>
           </div>
         </Link>
-        <Link href="/feedback" passHref>
+        <Link href="/contact" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <AddressBook size={20} />
-            <p>Contact Me</p>
+            <p>Contact</p>
           </div>
         </Link>
       </nav>
