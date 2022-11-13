@@ -33,7 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
       ></noscript>
 
       <Navbar />
-      <div className="p-10 w-full ">
+      <div className="p-3 w-full ">
         {children}
         <Footer />
       </div>
