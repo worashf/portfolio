@@ -41,7 +41,7 @@ const DesktopNavbar = ({ sideBarRef }) => {
             <p>Home</p>
           </div>
         </Link>
-        <Link href="/home" passHref>
+        <Link href="/about" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <Megaphone size={20} />
             <p>About Me</p>
