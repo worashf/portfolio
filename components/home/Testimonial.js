@@ -14,7 +14,7 @@ const Testimonial = () => {
               className="relative bg-fun-pink-darker border border-fun-pink-light p-5 rounded-lg h-full flex flex-col justify-between"
             >
               <p className="text-base italic relative testimonialQuote">
-                "{item.quote}"
+                &quot;{item.quote}&quot;
               </p>
               <p className="mt-4 text-xs text-fun-gray">
                 <b className="text-fun-pink font-monospace">{item.name}</b> -{' '}
