@@ -9,6 +9,8 @@
 - NextJS
 - Tailwind CSS
 
+# [Online demo](https://portfolio-sable-omega-84.vercel.app/)
+
 ## Getting Started
 
 To get the copy of this project in your computer,clone this repository or just download it.
@@ -34,10 +36,6 @@ To get the copy of this project in your computer,clone this repository or just d
 - GitHub: [@githubhandle](https://github.com/worashf)
 - Twitter: [@twitterhandle](https://twitter.com/WorashAboche)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/worash-abocherugn-a02219154/)
-
-## Online Demo version
-
-[Link(##)]
 
 ## 🤝 Contributing
 
