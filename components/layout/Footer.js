@@ -52,7 +52,7 @@ const Footer = () => {
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
           href="https://github.com/worashf/portfolio"
           target="_blank"
-          rel="nooreferrer"
+          rel="noreferrer"
         >
           <Image
             src="/static/icons/github.svg"

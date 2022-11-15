@@ -12,9 +12,9 @@ const Heading = () => {
       </h1>
 
       <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-        I've built cool apps and websites using anything from HTML to React (and
-        from NodeJS, Ruby on Rails and Spring Boot). Here are some of my
-        favorite projects over the course of my journey.
+        I &apos; ve built cool apps and websites using anything from HTML to
+        React (and from NodeJS, Ruby on Rails and Spring Boot). Here are some of
+        my favorite projects over the course of my journey.
       </p>
     </div>
   );
