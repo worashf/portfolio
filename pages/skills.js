@@ -5,6 +5,7 @@ const skills = () => {
   return (
     <PageContainer
       currentPage="Skills"
+      pageDesc="My toolbelt for success."
       meta={{
         desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
       }}

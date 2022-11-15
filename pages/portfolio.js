@@ -7,6 +7,7 @@ const portfolio = () => {
   return (
     <PageContainer
       currentPage="Projects"
+      pageDesc="I ' ve built cool apps and websites"
       meta={{
         desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
       }}
