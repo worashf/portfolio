@@ -59,12 +59,12 @@ const DesktopNavbar = ({ sideBarRef }) => {
             <p>Skills</p>
           </div>
         </Link>
-        <Link href="/cv" passHref>
+        {/* <Link href="/resume" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <File size={20} />
             <p>CV</p>
           </div>
-        </Link>
+        </Link> */}
         <Link href="/contact" passHref>
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <AddressBook size={20} />
