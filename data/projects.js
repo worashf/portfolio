@@ -50,7 +50,7 @@ const projects = [
   {
     id: 3,
     title: 'CS Calculator',
-    desc: 'This allowance calculator developed helps customers for easy allowance calculations,letter and terms of referecence (tor) managment.!',
+    desc: 'This allowance calculator helps customers with easy allowance calculations,  and terms of reference (tor) management.',
     img: '/static/projects/allowance-management.png',
     link: 'https://cs-allowance.herokuapp.com',
     github: 'https://github.com/worashf/allowance-client',
