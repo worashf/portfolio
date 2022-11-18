@@ -4,7 +4,7 @@ const projects = [
     title: 'EasyFly',
     desc: 'With EasyFly app you can reserve a jet in a specific range of date, see the details from a jet model, see or cancel your reservations, and add or delete a new jet to be available for reservation:.',
     img: '/static/projects/easy-fly.png',
-    link: 'https://timely-sprinkles-616361.netlify.app',
+    link: 'https://easy-fly.netlify.app/',
     github: 'https://github.com/worashf/book-a-jet-backend',
     tags: ['React', 'Redux', 'SCSS', 'PostgreSQL', 'Ruby on Rails'],
     features: [
