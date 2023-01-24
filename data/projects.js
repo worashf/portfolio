@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'ShiCommerce',
-    desc: 'ShiCommerce is an e-commerce website  has features for admin and users(buyer). Admin can manage products, manage orders, manage product reviews and users. User(buyer) can check product details, add product to cart, checkout the cart, fill shipping address, and pay payment using Stripe. and also user can check order status(processing, shipping and delivered).',
+    desc: 'ShiCommerce is an e-commerce website that has features for admins and users(buyers). Admin can manage products, manage orders, manage product reviews, and users. The user (buyer) can check product details, add a product to the cart, checkout the cart, fill shipping address, and pay payment using Stripe. and also user can check order status(processing, shipping, and delivered).',
     img: '/static/projects/shi-commerce.PNG',
     github: 'https://github.com/worashf/ShiCommerce',
     tags: ['React', 'Redux', 'CSS', 'Node.js', 'MongoDB'],
