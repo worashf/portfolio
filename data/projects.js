@@ -1,6 +1,22 @@
 const projects = [
   {
-    id: 0,
+    id: 1,
+    title: 'ShiCommerce',
+    desc: 'ShiCommerce is an e-commerce website  has features for admin and users(buyyer). Admin can manage products, manage orders, manage product reviews and users. User(buyyer) can check product details, add product to cart, checkout the cart, fill shipping address, and pay payment using Stripe. and also user can check order status(processing, shipping and delivered).',
+    img: '/static/projects/shi-commerce.png',
+    github: 'https://github.com/worashf/ShiCommerce',
+    tags: ['React', 'Redux', 'CSS', 'Node.js', 'MongoDB'],
+    features: [
+      'The system uses token-based authentications',
+      'Product linsting',
+      'Cart',
+      'Checkout order',
+      'Manage profile',
+      'Upload product image to Cloudinary',
+    ],
+  },
+  {
+    id: 2,
     title: 'EasyFly',
     desc: 'With EasyFly app you can reserve a jet in a specific range of date, see the details from a jet model, see or cancel your reservations, and add or delete a new jet to be available for reservation:.',
     img: '/static/projects/easy-fly.png',
@@ -18,7 +34,7 @@ const projects = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: 'Game dealer',
     desc: 'A website that allows users to check the available deals of computer games with data being collected directly from the cheapshark API.',
     img: '/static/projects/game-dealer.png',
@@ -32,7 +48,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: 'Personal portfolio',
     desc: 'Personal portfolio website built with HTML5, CSS3 and JavaScript.',
     img: '/static/projects/portfolio.png',
@@ -48,7 +64,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: 'CS Calculator',
     desc: 'This allowance calculator helps customers with easy allowance calculations,  and terms of reference (tor) management.',
     img: '/static/projects/allowance-management.png',
@@ -63,7 +79,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: 'Research Center Website',
     desc: 'HTML5/CSS3 and JavaScript basics capstone project, building research center website',
     img: '/static/projects/research-center.png',
@@ -80,7 +96,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     title: 'Awesome Tv',
     desc: 'Consume the movie API and render a list of movies on the page, the users can like and comments on the movie.',
     img: '/static/projects/awesome-tv.png',
@@ -96,7 +112,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     title: 'Online CourseWare',
     desc: 'Online course ware system is designed for teachers and authors to create course content online and for student to access the contents. ',
     img: '/static/projects/online-course-ware.png',
@@ -117,7 +133,7 @@ const projects = [
     ],
   },
   {
-    id: 7,
+    id: 9,
     title: 'OneInventory',
     desc: ' OneInventory is an online inventory management system that enables the user can manage inventory management tasks easily.',
     img: '/static/projects/inventory-admin.png',
