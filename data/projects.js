@@ -70,7 +70,7 @@ const projects = [
     title: 'CS Calculator',
     desc: 'This allowance calculator helps customers with easy allowance calculations,  and terms of reference (tor) management.',
     img: '/static/projects/allowance-management.png',
-    link: 'https://cs-allowance.herokuapp.com',
+    link: 'https://allowance-system.onrender.com/',
     github: 'https://github.com/worashf/allowance-client',
     tags: ['ReactJS', , 'CSS3', 'NodeJS', 'ExpressJS', 'MondoDB'],
     features: [
