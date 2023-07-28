@@ -30,7 +30,7 @@ const DesktopNavbar = ({ sideBarRef }) => {
             Worash Abocherugn
           </h5>
           <span className="text-sm font-medium text-white ">
-            FULL-STACK WEB DEVELOPER
+            FULL-STACK  DEVELOPER
           </span>
         </div>
       </Link>
