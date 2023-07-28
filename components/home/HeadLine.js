@@ -20,6 +20,7 @@ const HeadLine = () => {
             width="100"
             height="100"
             src="/static/headline/html.svg"
+            alt='"image'
           />
           <Image
             className="sqD squiggle-hero-nextjs  md:top-[75px] right-0 md:w-20"
@@ -27,6 +28,7 @@ const HeadLine = () => {
             src="/static/headline/rails.svg"
             width="100"
             height="100"
+            alt='"image'
           />
           <Image
             className="sqD bottom-[-200px] -right-1/4 sm:right-[-20%] lg:bottom-[-300px] lg:right-[-10px] w-10"
@@ -34,6 +36,7 @@ const HeadLine = () => {
             src="/static/headline/nodejs.svg"
             width="100"
             height="100"
+            alt='"image'
           />
           <Image
             className="sqD hidden sm:block bottom-[-340px] left-[-30px] w-48"
@@ -41,6 +44,7 @@ const HeadLine = () => {
             src="/static/headline/coder.svg"
             width="100"
             height="100"
+            alt='"image'
           />
           <Image
             className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
@@ -48,6 +52,7 @@ const HeadLine = () => {
             src="/static/headline/js.svg"
             width="100"
             height="100"
+            alt='"image'
           />
           <Image
             className="sqD bottom-[-220px] right-[65%] w-20 sm:right-[45%]"
@@ -55,6 +60,7 @@ const HeadLine = () => {
             src="/static/headline/java.svg"
             width="100"
             height="100"
+            alt='"image'
           />
           <Image
             className="sqD md:right-[-20px] right-[-10px] sm:right-0 bottom-[-180px] lg:[5%]  md:w-20"
@@ -68,6 +74,8 @@ const HeadLine = () => {
             src="/static/headline/pop1.svg"
             width="100"
             height="100"
+            alt='"image'
+
           />
           <Image
             className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
@@ -75,6 +83,7 @@ const HeadLine = () => {
             src="/static/headline/code.svg"
             width="50"
             height="50"
+            alt='"image'
           />
         </div>
         <ScrollLink
