@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
           rel="noreferrer"
           className={`w-full relative rounded-lg border-fun-gray border p-2 transition  hover:opacity-75 will-change-projectCard`}
         >
-          <img className="w-full rounded-md" src={project.img} />
+          <Image className="w-full rounded-md" src={project.img} width="1000" height="1000" alt ="project image" />
         </a>
         <div className="w-full mt-5">
           <div className="flex projects-center justify-between">

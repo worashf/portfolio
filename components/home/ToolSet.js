@@ -16,24 +16,28 @@ const ToolSet = () => {
             height="50"
             className="sqD  hidden md:block bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10]"
             src="/static/skills/laptop.svg"
+            alt="laptop"
           />
           <Image
             width="50"
             height="50"
             className="sqD hidden md:block top-[140px] right-0 lg:top-[105px]"
             src="/static/skills/coding.svg"
+            alt="coding"
           />
           <Image
             width="50"
             height="50"
             className="sqD hidden md:block top-[200px] right-[50px] lg:top-[170px] lg:right-[50px]"
             src="/static/skills/youtube.svg"
+            alt="youtube"
           />
           <Image
             width="50"
             height="50"
             className="sqD top-[-15px] right-[-15px]"
             src="/static/skills/fillStar.svg"
+            alt="fillstar"
           />
         </div>
         <div className="relative max-w-lg w-full mx-auto md:mx-none grid gap-x-8 gap-y-12 sm:gap-8 md:gap-12 grid-cols-3 sm:grid-cols-6 items-center place-content-center">
@@ -44,7 +48,8 @@ const ToolSet = () => {
                 key={index}
                 className="w-10 mx-auto flex items-center flex-col justify-center"
               >
-                <img src={item.icon} style={item.style} />
+                <Image src={item.icon} style={item.style} width="50"
+                  height="50" alt="skills image"/>
                 <p className="text-xs text-fun-gray font-bold mt-3 opacity-80">
                   {item.title}
                 </p>

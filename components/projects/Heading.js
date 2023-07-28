@@ -1,13 +1,16 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Heading = () => {
   return (
     <div className="py-5 sm:py-5 w-full text-center relative">
       <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
         Projects
-        <img
+        <Image
           className="sqD w-10 -top-8 -right-8 absolute"
           src="/static/headline/code.svg"
+          width="200"
+          height="100"
+          alt="project imahe"
         />
       </h1>
 

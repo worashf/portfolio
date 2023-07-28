@@ -16,13 +16,14 @@ const About = () => {
             width="300"
             height="300"
             className="rounded-xl mx-auto  opacity-75 hover:opacity-100 hover:border-fun-pink"
+            alt="Worash image"
           />
         </div>
 
         <div class=" w-full  rounded-lg shadow-md ">
           <a href="#">
             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400">
-            Hi there! I'm Worash, and I'm a full-stack developer who loves building applications that live on the internet. I find it incredibly satisfying to create something that people can use and enjoy, and I'm always looking for new ways to push the boundaries of what's possible.
+            Hi there! I&apos;m Worash, and I&apos;m a full-stack developer who loves building applications that live on the internet. I find it incredibly satisfying to create something that people can use and enjoy, and I'm always looking for new ways to push the boundaries of what's possible.
             </h5>
           </a>
           <p class="mb-2 text-md text-white da">
