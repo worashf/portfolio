@@ -23,7 +23,7 @@ const About = () => {
         <div class=" w-full  rounded-lg shadow-md ">
           <a href="#">
             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400">
-            Hi there! I&apos;m Worash, and I&apos;m a full-stack developer who loves building applications that live on the internet. I find it incredibly satisfying to create something that people can use and enjoy, and I'm always looking for new ways to push the boundaries of what's possible.
+            Hi there! I am Worash, and I am a full-stack developer who loves building applications that live on the internet. I find it incredibly satisfying to create something that people can use and enjoy, and I'm always looking for new ways to push the boundaries of what's possible.
             </h5>
           </a>
           <p class="mb-2 text-md text-white da">
