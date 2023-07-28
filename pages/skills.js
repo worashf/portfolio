@@ -7,8 +7,9 @@ const skills = () => {
       currentPage="Skills"
       pageDesc="My toolbelt for success."
       meta={{
-        desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
+        desc: "I'm a passionate full-stack developer and designer coding beautiful platforms.",
       }}
+      link={{link:"/favicon-16x16.png"}}
     >
       <div className="pt-10  ">
         <div className="md:mx-5 space-y-32  ">

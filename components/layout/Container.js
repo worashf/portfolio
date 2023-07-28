@@ -2,12 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from '../navbar/Navbar';
 import Footer from './Footer';
-const PageContainer = ({ currentPage, pageDesc, meta: { desc }, children }) => {
-  const pageTitle = `${
-    currentPage === 'Home'
+
+const PageContainer = ({ currentPage, pageDesc, meta: { desc },link:{link} ,children }) => {
+  const pageTitle = `${currentPage === 'Home'
       ? 'Worash -Full-Stack Web Developer'
       : `${currentPage} - ${pageDesc}`
-  }`;
+    }`;
   return (
     <div
       className="w-full flex flex-col md:flex-row   min-h-screen opening-box-animate-paddin text-white  "
@@ -24,6 +24,8 @@ const PageContainer = ({ currentPage, pageDesc, meta: { desc }, children }) => {
 
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={desc} />
+        <link rel="icon" type="image/png" sizes="16x16" href={link} />
+
       </Head>
       <noscript
         dangerouslySetInnerHTML={{

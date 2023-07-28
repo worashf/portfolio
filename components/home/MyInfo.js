@@ -13,24 +13,13 @@ const MyInfo = () => {
         "
         >
           <p className="text-white-800">
-            I’m a passionate web developer specializing in building exceptional
-            digital experiences. Currently, I’m focused on looking for a job,
-            learning tools and languages, building accessible, and
-            human-centered.{' '}
+          I am a passionate full-stack developer with a focus on building exceptional digital experiences. I am currently seeking projects and employment opportunities, as well as learning new tools and languages. I am committed to building accessible and human-centered products that make a positive impact on the world.{' '}
           </p>
           <p className="text-3xl mt-10 text-fun-pink"> OPEN FOR JOB!!!</p>
         </div>
         <div className="w-full md:w-1/2 md:mt-0 ">
           <p className=" text-gray-400 hover:text-gray-500 ">
-            I built applications like allowance management system and asset
-            management system for Ethiopian civil service commission, and it
-            shows the allowance management system I built reduces the hassle of
-            allowance calculation and management. I take time to learn new
-            skills and improve my skills, both technical and professional; when
-            I know I do have to prepare a plan for the Ethiopian civil service
-            commission IT department, I enrolled in a goal-setting and planning
-            online course, and I knew that effective planning would help to
-            succeed.
+          Over the course of my career, I have built 20+ applications that are both beautiful and powerful. I am passionate about developing innovative platforms that solve real-world problems, and I am always eager to work with clients to provide high-quality work and quick responses.
           </p>
         </div>
       </div>

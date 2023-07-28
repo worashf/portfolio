@@ -22,17 +22,11 @@ const About = () => {
         <div class=" w-full  rounded-lg shadow-md ">
           <a href="#">
             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400">
-              Hello! My name is Worash and I enjoy creating things that live on
-              the web.
+            Hi there! I'm Worash, and I'm a full-stack developer who loves building applications that live on the internet. I find it incredibly satisfying to create something that people can use and enjoy, and I'm always looking for new ways to push the boundaries of what's possible.
             </h5>
           </a>
           <p class="mb-2 text-md text-white da">
-            I am a full-stack web developer. I am currently looking for a web
-            development job, I have attended full stack dev curriculum at
-            Microverse for the last seven months, the program that uses pair
-            programming and real-world projects to teach web development. In
-            this school, I code every day with other developers around the world
-            and have learned both soft and technical skills.
+          Over the course of my career in information technology , I have a deep understanding of both the technical and business sides of the field. I have worked as a network administrator and full-stack developer, and I have built a wide range of applications that are both beautiful and powerful. I am passionate about developing innovative platforms that solve real-world problems, and I am always eager to work with clients to provide high-quality work and quick responses
           </p>
           <h3 className="font-bold text-xl text-fun-gray-800">
             I have experience and skillset like:

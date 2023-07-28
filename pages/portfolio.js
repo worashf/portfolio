@@ -11,6 +11,9 @@ const portfolio = () => {
       meta={{
         desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
       }}
+      link={{link:"/favicon-16x16.png"}}
+
+
     >
       <div className="pt-2">
         <div className="md:mx-5 space-y-10  ">

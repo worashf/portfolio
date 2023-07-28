@@ -2,6 +2,7 @@ import PageContainer from '../components/layout/Container';
 import HeadLine from '../components/home/HeadLine';
 import MyInfo from '../components/home/MyInfo';
 
+
 import Testimonial from '../components/home/Testimonial';
 import CTA from '../components/home/CTA';
 
@@ -12,6 +13,7 @@ export default function Home() {
       meta={{
         desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
       }}
+      link={{link:"/favicon-16x16.png"}}
     >
       <div className="pt-1  ">
         <div className="md:mx-5 space-y-10  ">
