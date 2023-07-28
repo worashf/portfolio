@@ -12,7 +12,7 @@ const HeadLine = () => {
         <p className="text-lg mb-5 text-white-800 ">Hey, I&apos;m Worash</p>
         <div className="heroTitle inline-block max-w-2xl lg:max-w-4xl text-white w-auto relative text-4xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           I am  <span className="heroShiny1 text-blue-600">passionate about creating innovative</span> and{' '}
-          <span className="heroShiny2 text-blue-600"> scalable platforms</span> that meet the needs of today's businesses.
+          <span className="heroShiny2 text-blue-600"> scalable platforms</span> that meet the needs of today&apos;s businesses.
 
           <Image
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
