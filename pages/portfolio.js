@@ -9,7 +9,7 @@ const portfolio = () => {
       currentPage="Projects"
       pageDesc="I ' ve built cool apps and websites"
       meta={{
-        desc: "I'm a passionate full-stack developer, who love coding beautiful websites and apps.",
+        desc: "I'm a passionate full-stack developer, who love coding beautiful platforms.",
       }}
       link={{link:"/favicon-16x16.png"}}
 

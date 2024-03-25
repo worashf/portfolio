@@ -15,8 +15,7 @@ const Heading = () => {
       </h1>
 
       <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-        I &apos; ve built cool apps and websites using anything from HTML to
-        React (and from NodeJS, Ruby on Rails and Spring Boot). Here are some of
+        I &apos; ve built cool platfroms using Python, Java (Spring Boot), Node.js (Express.js), and React.js/Next.js. I utilize MongoDB, MySQL, PostgreSQL, SQL, and Redis in my projects. Here are some of
         my favorite projects over the course of my journey.
       </p>
     </div>
