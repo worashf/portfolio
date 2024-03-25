@@ -50,7 +50,7 @@ const DesktopNavbar = ({ sideBarRef }) => {
         <Link href="/portfolio">
           <div className="flex flex-row py-1.5 px-4 transition duration-200 rounded items-center space-x-3 hover:bg-blue-600 hover:text-white">
             <Briefcase size={20} />
-            <p>Portfolio</p>
+            <p>Projects</p>
           </div>
         </Link>
         <Link href="/skills" passHref>

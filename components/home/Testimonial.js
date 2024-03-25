@@ -17,8 +17,12 @@ const Testimonial = () => {
                 &quot;{item.quote}&quot;
               </p>
               <p className="mt-4 text-xs text-fun-gray">
-                <b className="text-fun-pink font-monospace">{item.name}</b> -{' '}
+
+              <a href ={item.link} target="_blank" rel="noopener noreferrer" className='hover:text-fun-pink-light'>
+              <b className="text-fun-pink font-monospace">{item.name}</b> -{' '}
                 {item.job}
+                </a>
+
               </p>
             </div>
           );

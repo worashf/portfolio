@@ -3,7 +3,7 @@ const projects = [
   {
     id: 1,
     title: 'Walia Market',
-    desc: 'Walia Market is an e-commerce platform that offers various features accessible through both mobile applications (for Android and iOS) and websites. It caters to administrators, sellers, and buyers alike. Administrators have the capability to manage products, orders, product reviews, and users. Sellers, on the other hand, can manage their products, orders, and payments efficiently. Additionally, they can benefit from features such as inventory management, order fulfillment tracking, and sales analytics. Buyers enjoy functionalities such as checking product details, adding items to their carts, proceeding to checkout, providing shipping information, and completing payments securely through Chapa, Paypal and Cash on delivery.',
+    desc: 'Walia Market: E-commerce platform for admins, sellers, and buyers. Admins manage products, orders, reviews, and users. Sellers handle product, order, and payment management with inventory tracking and sales analytics. Buyers browse, add to carts, checkout, and securely pay via Chapa, PayPal, or Cash on Delivery.',
     img: '/static/projects/walia-market.png',
     link:'https://www.waliamarket.com/login',
     tags: ['Node.js', 'MongoDb', 'CSS', 'Cloudinary', 'NodeMailer','Flutter','EJS','Next.js'],
