@@ -27,12 +27,12 @@ const PageContainer = ({ currentPage, pageDesc, meta: { desc },link:{link} ,chil
         <link rel="icon" type="image/png" sizes="16x16" href={link} />
 
       </Head>
-      <noscript
+      {/* <noscript
         dangerouslySetInnerHTML={{
           __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC3CN7V"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         }}
-      ></noscript>
+      ></noscript> */}
 
       <Navbar />
       <div className="p-3 w-full ">
