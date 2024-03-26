@@ -11,7 +11,7 @@ const PageContainer = ({ currentPage, pageDesc, meta: { desc },link:{link} ,chil
   return (
     <div
       className="w-full flex flex-col md:flex-row   min-h-screen opening-box-animate-paddin text-white  "
-      // style={{ maxWidth: '1200px' }}
+      style={{ maxWidth: '1200px' }}
     >
       <Head>
         <title>{pageTitle}</title>
