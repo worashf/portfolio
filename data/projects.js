@@ -1,12 +1,99 @@
 const projects = [
-
   {
     id: 1,
+    title: 'eTourist Management',
+    desc: 'A tourism management system for Ethiopia that handles tourists, guides, and attraction sites, with dashboards and analytics. Starting soon at Wonchi Eco Lodge and scaling to other sites.',
+    img: '/static/projects/etdms.webp',
+    link:'https://develop.etdms.com/',
+    tags: ['Node.js', 'Express.js', 'TypeScript', 'TypeORM', 'PostgreSQL', 'CSS', 'Next.js' ,'Web Socket' , 'Redux toolkit','NodeMailer', 'VPS', "Jira", "Nginx", "API"],
+    features: [
+'Attraction site registration and management',
+ 'Tour guide registration and management', 
+ 'Tourist registration and management', 
+ 'Admin and receptionist role management',
+  'Attraction site status update and pagination',
+   'Tour guide status update and pagination', 
+   'Public access to attraction sites and tour guides', 
+   'Tourist demographic tracking (nationality, age, gender)',
+    'Admin dashboard with real-time statistics',
+     'User authentication and role-based access control',
+      'Reporting and analytics on tourist data',
+       'Real-time notifications for updates'
+    ],
+  },
+  {
+    id: 2,
+    title: 'Arif Spot',
+    desc: 'A smart travel companion that helps users book hotels, find tour guides, explore attractions, plan trips, and access local tips with secure payments, offline access, and multi-language support.',
+    img: '/static/projects/arif-spot.webp',
+    tags: ['Node.js', 'Express.js', 'TypeScript', 'Sequelize', 'MySQL', 'CSS', 'Next.js' , 'Redux toolkit',"React Native"],
+    features: [
+'hotel booking', 
+'tour guide access', 
+'attraction discovery', 
+'user reviews',
+ 'interactive map',
+  'trip planner',
+   'local tips',
+    'multi-language support',
+     'secure payments',
+      'offline access'
+    ],
+  },
+  {
+    id: 3,
+    title: 'Lideta Sub-City Trade Office Complaint Handling System',
+    desc: 'Lideta Sub-City Trade Office Complaint Handling System is a role-based web app for submitting, tracking, and resolving trade-related complaints, improving transparency and efficiency in the complaint process.',
+    img: '/static/projects/qereta.webp',
+    link:'https://lidetatrade.qereta.com/',
+    tags: ['Node.js', 'Express.js', 'TypeScript', 'TypeORM', 'PostgreSQL', 'CSS', 'Next.js' , 'Redux toolkit','NodeMailer', 'VPS', "Nginx", "Jira"],
+    features: [
+'Multi-role access (Admin, Officer, Team Leader, Manager, Merchant, Buyer)',
+'Complaint submission with attachments',
+'Complaint workflow tracking (Submitted to Resolved)',
+'Team Leader assignment & escalation handling',
+'Real-time email notifications',
+'Role-based dashboards',
+'Officer response & info request tools',
+'Admin management (users, roles, departments, categories)',
+'Analytics & performance reporting',
+'Secure login with role-based access',
+'Responsive design (mobile & desktop)',
+'Satisfaction feedback after resolution',
+'Feedback review for service improvement'
+    ],
+  },
+  {
+
+    id: 4,
+    title: 'Public Service Employee Complaint Management System',
+    desc: 'A web application enabling public service employees to submit complaints on issues such as salary reductions, terminations, and job position disputes. The system helps government offices manage, resolve, and respond to these complaints, promoting accountability and transparency..',
+    img: '/static/projects/public-compliat.webp',
+    link:'https://www.lidetapsecms.com/',
+    tags: ['Node.js', 'Express.js', 'TypeScript', 'TypeORM', 'PostgreSQL', 'CSS', 'Next.js' , 'Redux toolkit','NodeMailer', 'VPS', "Jira"],
+    features: [
+'Complaint Submission: Employees file workplace complaints',
+'Complaint Tracking: Track complaint status',
+'Issue Categories: Classify by type (e.g., salary, termination)',
+'Role-Based Access: Different access for employees, officers, admins',
+'Complaint Management: Review, resolve, and close complaints',
+'Escalation: Escalate complex complaints to higher authorities',
+'Notifications: Alerts for updates and resolutions',
+'Reporting: Generate reports on trends and performance',
+'Feedback: Employees rate complaint handling',
+
+    ],
+
+  },
+  
+
+  {
+    id: 5,
     title: 'Walia Market',
     desc: 'Walia Market: E-commerce platform for admins, sellers, and buyers. Admins manage products, orders, reviews, and users. Sellers handle product, order, and payment management with inventory tracking and sales analytics. Buyers browse, add to carts, checkout, and securely pay via Chapa, PayPal, or Cash on Delivery.',
     img: '/static/projects/walia-market.png',
     link:'https://www.waliamarket.com/login',
-    tags: ['Node.js', 'MongoDb', 'CSS', 'Cloudinary', 'NodeMailer','Flutter','EJS','Next.js'],
+    tags: ['Node.js', 'MongoDb', 'CSS', 'Cloudinary', "DigitalOcean",'NodeMailer','Flutter','EJS','Next.js'],
     features: [
       'The system uses token-based authentications',
       'The System has features for sellers',
@@ -21,7 +108,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 6,
     title: 'CS Calculator',
     desc: 'This allowance calculator helps customers with easy allowance calculations,  and terms of reference (tor) management.',
     img: '/static/projects/allowance-management.png',
@@ -36,7 +123,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 7,
     title: 'EasyFly',
     desc: 'With EasyFly app you can reserve a jet in a specific range of date, see the details from a jet model, see or cancel your reservations, and add or delete a new jet to be available for reservation:.',
     img: '/static/projects/easy-fly.png',
@@ -54,7 +141,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 8,
     title: 'Game dealer',
     desc: 'A website that allows users to check the available deals of computer games with data being collected directly from the cheapshark API.',
     img: '/static/projects/game-dealer.png',
@@ -68,7 +155,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 9,
     title: 'Personal portfolio',
     desc: 'Personal portfolio website built with HTML5, CSS3 and JavaScript.',
     img: '/static/projects/portfolio.png',
@@ -84,7 +171,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 10,
     title: 'ShiCommerce',
     desc: 'ShiCommerce is an e-commerce website that has features for admins and users(buyers). Admin can manage products, manage orders, manage product reviews, and users. The user (buyer) can check product details, add a product to the cart, checkout the cart, fill shipping address, and pay payment using Stripe. and also user can check order status(processing, shipping, and delivered).',
     img: '/static/projects/shi-commerce.PNG',
@@ -103,7 +190,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 11,
     title: 'Research Center Website',
     desc: 'HTML5/CSS3 and JavaScript basics capstone project, building research center website',
     img: '/static/projects/research-center.png',
@@ -120,7 +207,7 @@ const projects = [
     ],
   },
   {
-    id: 8,
+    id: 12,
     title: 'Awesome Tv',
     desc: 'Consume the movie API and render a list of movies on the page, the users can like and comments on the movie.',
     img: '/static/projects/awesome-tv.png',
@@ -136,7 +223,7 @@ const projects = [
     ],
   },
   {
-    id: 9,
+    id: 13,
     title: 'Online CourseWare',
     desc: 'Online course ware system is designed for teachers and authors to create course content online and for student to access the contents. ',
     img: '/static/projects/online-course-ware.png',
@@ -157,7 +244,7 @@ const projects = [
     ],
   },
   {
-    id: 10,
+    id: 14,
     title: 'OneInventory',
     desc: ' OneInventory is an online inventory management system that enables the user can manage inventory management tasks easily.',
     img: '/static/projects/inventory-admin.png',
